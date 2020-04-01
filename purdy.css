@@ -1,0 +1,22 @@
+header{
+    background-color: rgba(0, 50, 100, 0.699);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: 'left';
+    text-shadow: rgba(0, 60, 119, 0.899);
+}
+
+body{
+    background-color: rgb(0, 29, 192);
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+main{
+    height: 500px;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    text-decoration-color: silver;
+}
