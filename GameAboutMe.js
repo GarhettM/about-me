@@ -87,11 +87,14 @@ function questionSix()  {
       alert('Great! You\'re a savant!');
       break;
     } else {
-      alert('Wrong! Try again!')
+      alert('Wrong!')
       counter++    
     }
-  }
     
+  }
+
+  alert('Well that wasn\'t terrible, let\'s try something harder!')
+
   } 
 
 
@@ -103,16 +106,23 @@ function questionSeven()  {
   
   var carILike = ['rs5', 'a5', 'x5', '750i', 'model S'];
   var counter = 0;
-  var askWhatCarILike = prompt('What cars do you think I like? Only 6 guesses.');
+  
 
   while (counter < 6) {
+    var askWhatCarILike = prompt('What cars do you think I like? Only 6 guesses.');
 
     if (askWhatCarILike === carILike[0] || askWhatCarILike === carILike[1] || askWhatCarILike === carILike[2] || askWhatCarILike === carILike[3] || askWhatCarILike === carILike[4]) {
-      prompt('Good Job!')
-  
+      alert('Good Job!')
+      break;
+
     } else {
       counter++
-      alert('Wrong! Try again.')
+      alert('Wrong!')
     }
   }
+
+  alert('Welp thats all folks!')
+
 }
+
+questionSeven();
