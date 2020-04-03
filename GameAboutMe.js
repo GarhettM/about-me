@@ -70,15 +70,18 @@ function q4() {
   }else{alert('Please type accurately! Answer YES or NO!')};
 
 }
+
 // Question 5 = Do I have a professional background in Business Administration and Sales? Answer = YES
 
-var answerToFifthQ = prompt('Do I have a professional background in Business Administration and Sales?').toUpperCase();
+function q5() {
 
-if (answerToFifthQ === 'Y' || answerToFifthQ === 'YES') {
-  alert('Correct! Let\'s keep going!');
-}else if (answerToFifthQ === 'N' || answerToFifthQ === 'NO') {
-  alert('Um, ya dun goofed!');
-}
+  var answerToFifthQ = prompt('Do I have a professional background in Business Administration and Sales?').toUpperCase();
+
+  if (answerToFifthQ === 'Y' || answerToFifthQ === 'YES') {
+    alert('Correct! Let\'s keep going!');
+  }else if (answerToFifthQ === 'N' || answerToFifthQ === 'NO') {
+    alert('Um, ya dun goofed!');
+  }
 
 }
 
