@@ -32,6 +32,7 @@ function q1() {
 // Question 2 = Am I fluent in two languages? Answer = YES
 
 function q2() {
+
   var answerToSecondQ = prompt('Am I fluent in two languages?').toUpperCase();
 
   if (answerToSecondQ === 'Y' || answerToSecondQ === 'YES') {
@@ -44,6 +45,8 @@ function q2() {
 
 // Question 3 = Am I currently an effective front end web developer? Answer = NO
 
+function q3() {
+
 var answerToThirdQ = prompt('Am I currently an effective front end web developer?').toUpperCase();
 
 if (answerToThirdQ === 'N' || answerToThirdQ === 'NO') {
@@ -51,6 +54,8 @@ if (answerToThirdQ === 'N' || answerToThirdQ === 'NO') {
 }else if (answerToThirdQ === 'Y' || answerToThirdQ === 'YES') {
   alert('Um, ya dun goofed!');
 }else{alert('Please type accurately! Answer YES or NO!')};
+
+}
 
 // Question 4 = Will I become an effective front end web developer? Answer = YES! one day...
 
@@ -132,5 +137,7 @@ function questionSeven()  {
 }
 
 q1();
+q2();
+q3();
 questionSix();
 questionSeven();
