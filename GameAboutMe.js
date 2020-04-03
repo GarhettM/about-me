@@ -31,13 +31,16 @@ function q1() {
 }
 // Question 2 = Am I fluent in two languages? Answer = YES
 
-var answerToSecondQ = prompt('Am I fluent in two languages?').toUpperCase();
+function q2() {
+  var answerToSecondQ = prompt('Am I fluent in two languages?').toUpperCase();
 
-if (answerToSecondQ === 'Y' || answerToSecondQ === 'YES') {
-  alert('Correct! Let\'s keep going!');
-}else if (answerToSecondQ === 'N' || answerToSecondQ === 'NO') {
-  alert('Um, ya dun goofed!');
-}else{alert('Please type accurately! Answer YES or NO!')};
+  if (answerToSecondQ === 'Y' || answerToSecondQ === 'YES') {
+    alert('Correct! Let\'s keep going!');
+  }else if (answerToSecondQ === 'N' || answerToSecondQ === 'NO') {
+    alert('Um, ya dun goofed!');
+  }else{alert('Please type accurately! Answer YES or NO!')};
+
+}
 
 // Question 3 = Am I currently an effective front end web developer? Answer = NO
 
