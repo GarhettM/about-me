@@ -47,26 +47,29 @@ function q2() {
 
 function q3() {
 
-var answerToThirdQ = prompt('Am I currently an effective front end web developer?').toUpperCase();
+  var answerToThirdQ = prompt('Am I currently an effective front end web developer?').toUpperCase();
 
-if (answerToThirdQ === 'N' || answerToThirdQ === 'NO') {
-  alert('Correct! You\'re a savant!');
-}else if (answerToThirdQ === 'Y' || answerToThirdQ === 'YES') {
-  alert('Um, ya dun goofed!');
-}else{alert('Please type accurately! Answer YES or NO!')};
+  if (answerToThirdQ === 'N' || answerToThirdQ === 'NO') {
+    alert('Correct! You\'re a savant!');
+  }else if (answerToThirdQ === 'Y' || answerToThirdQ === 'YES') {
+    alert('Um, ya dun goofed!');
+  }else{alert('Please type accurately! Answer YES or NO!')};
 
 }
 
 // Question 4 = Will I become an effective front end web developer? Answer = YES! one day...
 
-var answerToFourthQ = prompt('Will I eventually become an effective front end web developer?').toUpperCase();
+function q4() {
 
-if (answerToFourthQ === 'Y' || answerToFourthQ === 'YES') {
-  alert('Correct! Let\'s keep going!');
-}else if (answerToFourthQ === 'N' || answerToFourthQ === 'NO') {
-  alert('Um, ya dun goofed!');
-}else{alert('Please type accurately! Answer YES or NO!')};
+  var answerToFourthQ = prompt('Will I eventually become an effective front end web developer?').toUpperCase();
 
+  if (answerToFourthQ === 'Y' || answerToFourthQ === 'YES') {
+    alert('Correct! Let\'s keep going!');
+  }else if (answerToFourthQ === 'N' || answerToFourthQ === 'NO') {
+    alert('Um, ya dun goofed!');
+  }else{alert('Please type accurately! Answer YES or NO!')};
+
+}
 // Question 5 = Do I have a professional background in Business Administration and Sales? Answer = YES
 
 var answerToFifthQ = prompt('Do I have a professional background in Business Administration and Sales?').toUpperCase();
@@ -75,6 +78,8 @@ if (answerToFifthQ === 'Y' || answerToFifthQ === 'YES') {
   alert('Correct! Let\'s keep going!');
 }else if (answerToFifthQ === 'N' || answerToFifthQ === 'NO') {
   alert('Um, ya dun goofed!');
+}
+
 }
 
 alert('Well that wasn\'t terrible, let\'s try something harder!')
