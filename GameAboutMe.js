@@ -2,20 +2,21 @@
 
 // User is greated by the web page. The following are my global, top-level, variables for this set of labs.
 
-var userName = prompt('Welcome to the world\'s most rudimentary guessing game! So, um, what\'s your name?');
-var userInput;
-var userScore = 0;
+// var userName = prompt('Welcome to the world\'s most rudimentary guessing game! So, um, what\'s your name?');
+// var userInput;
+// var userScore = 0;
 
 // Page knows the user now and begins the guessing game. NOTE TO SELF --- ADD User Score Increment later after each correct answer!
 
-alert('Hi ' + userName + '! Let\'s play a game about me!');
-console.log(userName);
+// alert('Hi ' + userName + '! Let\'s play a game about me!');
+// console.log(userName);
 
-// START OF GAME!
+// // START OF GAME!
 
-alert('Well, ' + userName + ', I hope you read the autobiography. Here we go!');
+// alert('Well, ' + userName + ', I hope you read the autobiography. Here we go!');
 
-// Question 1 = Was I born in the United States of America? Answer = NO
+// // Question 1 = Was I born in the United States of America? Answer = NO
+
 
 function q1() {
 
@@ -43,7 +44,9 @@ function q2() {
 
 }
 
-// Question 3 = Am I currently an effective front end web developer? Answer = NO
+
+// // Question 3 = Am I currently an effective front end web developer? Answer = NO
+
 
 function q3() {
 
@@ -57,7 +60,8 @@ function q3() {
 
 }
 
-// Question 4 = Will I become an effective front end web developer? Answer = YES! one day...
+// // Question 4 = Will I become an effective front end web developer? Answer = YES! one day...
+
 
 function q4() {
 
@@ -71,7 +75,8 @@ function q4() {
 
 }
 
-// Question 5 = Do I have a professional background in Business Administration and Sales? Answer = YES
+// // Question 5 = Do I have a professional background in Business Administration and Sales? Answer = YES
+
 
 function q5() {
 
@@ -93,8 +98,6 @@ function q6()  {
   var answer = '5';
   console.log('Question = ' + question);
 
-
-
   while (counter < 4)  {
     var question = prompt('What number am I thinking of 1-5? Careful, you only have 4 tries!'); 
     
@@ -115,10 +118,6 @@ function q6()  {
   alert('Next hard question!')
 
   } 
-
-
-
-
 
 
 function q7()  {
