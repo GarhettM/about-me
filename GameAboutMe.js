@@ -87,7 +87,7 @@ function q5() {
 
 alert('Well that wasn\'t terrible, let\'s try something harder!')
 
-function questionSix()  {
+function q6()  {
   var counter = 0;
   
   var answer = '5';
@@ -121,7 +121,7 @@ function questionSix()  {
 
 
 
-function questionSeven()  {
+function q7()  {
   
   var carILike = ['rs5', 'a5', 'x5', '750i', 'model S'];
   var counter = 0;
@@ -147,5 +147,7 @@ function questionSeven()  {
 q1();
 q2();
 q3();
-questionSix();
-questionSeven();
+q4();
+q5();
+q6();
+q7();
